@@ -1,0 +1,103 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  /* background: url("./img/showcase.jpg") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+/* Radio css */
+
+.plan .four {
+  width: 23.26%;
+  max-width: 23.26%;
+}
+
+/* COLUMNS */
+
+.plan .col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.plan .col:first-of-type {
+  margin-left: 0;
+}
+
+/* CLEARFIX */
+
+.plan .cf:before,
+.plan .cf:after {
+  content: " ";
+  display: table;
+}
+
+.plan .cf:after {
+  clear: both;
+}
+
+.plan .cf {
+  *zoom: 1;
+}
+
+/* FORM */
+
+.plan input[type="radio"] {
+  display: none;
+}
+
+.plan .form label {
+  position: relative;
+  color: #fff;
+  background-color: #aaa;
+  font-size: 26px;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  display: block;
+  cursor: pointer;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.plan .r-checked {
+  border: 3px solid #333;
+  background-color: #2fcc71;
+}
+
+/* Radio css */
